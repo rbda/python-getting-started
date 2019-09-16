@@ -2,7 +2,7 @@ from django.urls import path, include
 
 from django.contrib import admin
 
-admin.autodiscover()
+# admin.autodiscover()
 
 import hello.views
 import terminology.urls
