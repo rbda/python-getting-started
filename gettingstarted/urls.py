@@ -17,6 +17,7 @@ import terminology.urls
 
 urlpatterns = [
     # path("", hello.views.index, name="index"),
+    path("", include(terminology.urls)),
     path("terms/", include(terminology.urls)),
     path("admin/", admin.site.urls),
 ]
